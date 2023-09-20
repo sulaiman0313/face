@@ -1,0 +1,55 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo Black', sans-serif;
+}
+.container{
+    border: 1px solid black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.cont1{
+    border: 2px solid rebeccapurple;
+    width: 30%;
+    background: #C5E063;
+}
+.cont2{
+    border: 2px solid green;
+    width: 70%;
+    background: #A4BFEB;
+    
+}
+.input form{
+    text-align: center;
+}
+form{
+    background: #fff;
+    width: 660px;
+    height: 55px;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+form input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+form button{
+    background: tomato;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+form .fa-search{
+    align-self: center;
+    padding: 10px 20px;
+    color: #777;
+    font-weight: 800;
+}
