@@ -54,11 +54,11 @@ form .fa-search{
     font-weight: 800;
 }
 .cards{
-    border: 3px solid black;
+    /* border: 3px solid black; */
     height: 83vh;
 }
 .card{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: inline-flex;
     height: 50vh;
     width: 30%;
@@ -74,9 +74,22 @@ form .fa-search{
 }
 .btn{
     margin-bottom: -350px;
-    width: 80px;
-    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
     background: tomato;
     color: #fff;
+    position: absolute;
+    
+
+    
+    
+}
+.cir{
+    border: 2px solid green;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: -250px;
     
 }
