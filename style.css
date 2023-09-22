@@ -55,41 +55,138 @@ form .fa-search{
 }
 .cards{
     /* border: 3px solid black; */
-    height: 83vh;
+    height: 50vh;
+    overflow-x: scroll; 
+    white-space: nowrap;
+}
+.cards::-webkit-scrollbar{
+    display: none;
 }
 .card{
     /* border: 1px solid red; */
     display: inline-flex;
-    height: 50vh;
-    width: 30%;
+    height: 250px;
+    width: 120px;
     flex-direction: column;
     margin-left: 20px;
     margin-top: 120px;
     background: #fff;
     border-radius: 28px;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-between;
+   
     
 
 }
-.btn{
-    margin-bottom: -350px;
-    width: 100px;
+.btndiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 30px;
+}
+.btn{
+    /* margin-bottom: -350px; */
+    width: 40px;
+    height: 20px;
     border-radius: 2px;
     background: tomato;
     color: #fff;
-    position: absolute;
-    
-
-    
-    
 }
 .cir{
     border: 2px solid green;
-    height: 80px;
-    width: 80px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
-    margin-top: -250px;
+    /* margin-top: -250px; */
+
     
 }
+
+
+/* postArea  */
+
+
+.postArea{
+    /* border: 1px solid black; */
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+.writepost{
+
+    height: 20%;
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#postwriting {
+    border-radius: 15px;
+    width: 40%;
+    text-align: center;
+}
+#post-btn {
+    width: 120px;
+    background: unset;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.butn{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: -90px;
+}
+.butn .btz{
+    height: 30px;
+    width: 80px;
+    background: tomato;
+    
+}
+.butn .btx{
+    height: 30px;
+    width: 80px;
+    background: tomato;
+}
+.posted{
+    /* border: 2px solid red; */
+    margin: 20px 40px;
+    
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+ul li a{
+    margin: 10px;
+    color: #3F403F;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    transition: transform .4s;
+}
+ul li a .fa-solid{
+    color: red;
+    transition: transform .4s;
+}
+ul li a .fa-regular{
+    color: #D6BA73;
+}
+ul li a:hover{
+    transform: translateY(.50s);
+    color: tomato;
+    background: #14281D;
+    border-radius: 2px;
+    width: 50%;
+    font-size: 20px;
+
+}
+
