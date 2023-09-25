@@ -7,7 +7,7 @@
 }
 .container{
     border: 1px solid black;
-    height: 100vh;
+    height: 1000vh;
     width: 100%;
     display: flex;
 }
@@ -189,4 +189,72 @@ ul li a:hover{
     font-size: 20px;
 
 }
+.post2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* border: 2px solid black; */
+    height: 200px;
+    background-color: #63768D;
 
+}
+.post2 p{
+    margin-bottom: -20px;
+    margin-left: -560px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+}
+.post2 .postcircle{
+    height: 43px;
+    width: 45px;
+    border-radius: 50%;
+    border: 2px solid green;
+    display: flex;
+    margin-top: -120px;
+    margin-left: -750px;
+}
+.postcircle img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.post2 h2{
+    font-size: 12px;
+    margin-top: -120px;
+    margin-left: 10px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.like{
+    margin-bottom: -150px;
+    /* border: 1px solid cadetblue; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: -550px;
+}
+.like li a{
+    font-size: 15px;
+    margin-left: 115px;
+    display: flex;
+    color: #14281D;
+}
+span{
+    color: #fff;
+    
+    
+}
+.like .fa-thumbs-up{
+    color: #FFFFFF;
+    margin: 3px;
+}
+.like .fa-comment{
+    color: #FFFFFF;
+    margin: 3px;
+}
+.like .fa-share{
+    color: #FFFFFF;
+    margin: 3px;
+}
