@@ -243,18 +243,19 @@ ul li a:hover{
 }
 span{
     color: #fff;
+    font-size: 12px;
     
     
 }
 .like .fa-thumbs-up{
     color: #FFFFFF;
-    margin: 3px;
+    margin: 1px 5px;
 }
 .like .fa-comment{
     color: #FFFFFF;
-    margin: 3px;
+    margin: 1px 5px;
 }
 .like .fa-share{
     color: #FFFFFF;
-    margin: 3px;
+    margin: 1px 5px;
 }
