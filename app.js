@@ -17,6 +17,8 @@ btn.addEventListener('click',()=>{
     inputs.value=""
 })
 
+console.log("https")
+
 
 
 
